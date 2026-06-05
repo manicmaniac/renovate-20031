@@ -10,7 +10,7 @@ let package = Package(
             targets: ["renovate-20031"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", exact: "1.2.1"),
+        .package(url: "https://github.com/apple/swift-argument-parser", exact: "1.8.2"),
     ],
     targets: [
         .target(
